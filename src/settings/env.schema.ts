@@ -1,6 +1,7 @@
 import { z } from "zod";
 
 export const envSchema = z.object({
-    BOT_TOKEN: z.string("Discord Bot Token is required").min(1),
-    WEBHOOK_LOGS_URL: z.url().optional()
+  BOT_TOKEN: z.string("Discord Bot Token is required").min(1),
+  WEBHOOK_LOGS_URL: z.url().optional(),
+  OPENAI_API_KEY: z.string("OpenAI API Key is required").min(1),
 });
