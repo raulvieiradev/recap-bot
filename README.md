@@ -30,6 +30,14 @@ Generate a configurable summary of recent messages in a channel.
 - `channel` (optional): Target channel (default: current channel)
 - `include_analysis` (optional): Include sentiment analysis and keywords (default: false)
 
+### `/ask`
+
+Ask questions about recent channel history using AI.
+
+- `question`: Your question about the channel content
+- `amount` (optional): Number of recent messages to analyze (20-200, default: 100)
+- `channel` (optional): Target channel (default: current channel)
+
 ## 🛠️ Setup
 
 ### Prerequisites
